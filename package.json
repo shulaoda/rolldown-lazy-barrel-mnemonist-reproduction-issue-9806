@@ -1,0 +1,12 @@
+{
+  "name": "rolldown-lazy-barrel-mnemonist-reproduction-issue-9806",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c rolldown.config.mjs",
+    "start": "node dist/out.mjs"
+  },
+  "dependencies": {
+    "rolldown": "1.1.1"
+  }
+}
